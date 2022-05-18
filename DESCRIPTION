@@ -1,0 +1,16 @@
+Package: countES
+Title: Effect Size Measures For Count Regression Models
+Version: 0.0.0.9000
+Authors@R: 
+    person("Stefany", "Coxe", , "istefany@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-2203-0775"))
+Description: Calculates effect size measures for count regression models
+    including Poisson regression and negative binomical regression.
+    Standardized mean difference (SMD, i.e., Cohen's d) and 
+    multiplicative effect size measures are included.
+    Calculates Monte Carlo confidence intervals for the effect size.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
