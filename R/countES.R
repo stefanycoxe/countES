@@ -2,17 +2,17 @@
 #'
 #' This function calculates the standardized mean difference (SMD, i.e., Cohen's d)
 #' and the multiplicative effect size for a count regression model
-#' @param int Intercept value
-#' @param int_se Standard error of the intercept
-#' @param slope Slope value
-#' @param slope_se Standard error of the slope
-#' @param disp Dispersion
-#' @param mtype Model type: "poisson" "overdispersed" "negative binomial"
-#' @param reps Number of Monte Carlo replications
-#' @param CI_level Confidence interval level (e.g., 95)
-#' @param randseed Random seed to replicate results
-#' @param eff_plot Plot of exponential effect
-#' @param dist_plot Histogram of Monte Carlo replications
+#' @param int Intercept value (numeric)
+#' @param int_se Standard error of the intercept (numeric)
+#' @param slope Slope value (numeric)
+#' @param slope_se Standard error of the slope (numeric)
+#' @param disp Dispersion: square root of phi for overdispersed, alpha for negative binomial (numeric)
+#' @param mtype Model type ("poisson" "overdispersed" "negative binomial")
+#' @param reps Number of Monte Carlo replications (integer)
+#' @param CI_level Confidence interval level (e.g., 95 for 95% confidence interval)
+#' @param randseed Random seed to replicate results (integer)
+#' @param eff_plot Plot of exponential effect (TRUE FALSE)
+#' @param dist_plot Histogram of Monte Carlo replications (TRUE FALSE)
 #' @keywords count poisson negativebinomial effectsize montecarlo
 #' @import ggplot2
 #' @export

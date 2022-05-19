@@ -19,27 +19,27 @@ countES(
 )
 }
 \arguments{
-\item{int}{Intercept value}
+\item{int}{Intercept value (numeric)}
 
-\item{int_se}{Standard error of the intercept}
+\item{int_se}{Standard error of the intercept (numeric)}
 
-\item{slope}{Slope value}
+\item{slope}{Slope value (numeric)}
 
-\item{slope_se}{Standard error of the slope}
+\item{slope_se}{Standard error of the slope (numeric)}
 
-\item{disp}{Dispersion}
+\item{disp}{Dispersion: square root of phi for overdispersed, alpha for negative binomial (numeric)}
 
-\item{mtype}{Model type: "poisson" "overdispersed" "negative binomial"}
+\item{mtype}{Model type ("poisson" "overdispersed" "negative binomial")}
 
-\item{reps}{Number of Monte Carlo replications}
+\item{reps}{Number of Monte Carlo replications (integer)}
 
-\item{CI_level}{Confidence interval level (e.g., 95)}
+\item{CI_level}{Confidence interval level (e.g., 95 for 95\% confidence interval)}
 
-\item{randseed}{Random seed to replicate results}
+\item{randseed}{Random seed to replicate results (integer)}
 
-\item{eff_plot}{Plot of exponential effect}
+\item{eff_plot}{Plot of exponential effect (TRUE FALSE)}
 
-\item{dist_plot}{Histogram of Monte Carlo replications}
+\item{dist_plot}{Histogram of Monte Carlo replications (TRUE FALSE)}
 }
 \description{
 This function calculates the standardized mean difference (SMD, i.e., Cohen's d)
