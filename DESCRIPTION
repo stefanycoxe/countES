@@ -9,7 +9,7 @@ Description: Calculates effect size measures for count regression models
     multiplicative effect size measures are included.
     Calculates Monte Carlo confidence intervals for the effect size.
     Plots of effect size and Monte Carlo simulations are optional.
-License: MIT + file LICENSE
+License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.0
