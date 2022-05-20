@@ -11,3 +11,11 @@ Uses code from RcountD shiny app: [https://stefany.shinyapps.io/RcountD/](https:
 - Calculates Monte Carlo confidence intervals for the effect size
 
 - Plots of effect size and Monte Carlo simulations are optional
+
+To install this package:
+
+```{r, eval = FALSE}
+install.packages("devtools")
+library(devtools)
+devtools::install_github("stefanycoxe/countES")
+```
